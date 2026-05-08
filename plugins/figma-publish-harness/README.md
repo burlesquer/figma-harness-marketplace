@@ -81,7 +81,7 @@ Figma URL 또는 nodeId를 받으면:
 
 ## 디자인 빈틈 정책
 
-부족한 정보는 7가지 질문으로 사용자 확인 (auto 모드면 합리적 디폴트 적용):
+부족한 정보는 7가지 질문으로 사용자 확인 (auto 모드 또는 프로젝트 CLAUDE.md에 기본값이 있으면 자동 적용):
 
 1. Components/Variants 페이지 존재?
 2. 모바일 mockup 존재?
@@ -90,6 +90,12 @@ Figma URL 또는 nodeId를 받으면:
 5. 반응형 범위 (sm/md/lg/xl)?
 6. container query 사용?
 7. fluid typography 사용?
+
+## 프로젝트 기본값 사전 등록 (선택, 권장)
+
+매 실행마다 7질문에 답변하기 싫으면, [`examples/CLAUDE.md`](./examples/CLAUDE.md)를 자기 프로젝트 루트의 `CLAUDE.md`로 복사·수정하세요. 회사 컨벤션(스택·반응형 범위·검증 임계치·도메인 규칙)을 박아두면 orchestrator가 묻지 않고 바로 진행합니다.
+
+> 이 파일은 **선택 사항**입니다. 플러그인 자체는 이 파일 없이도 동작합니다 (트리거는 스킬 description에 이미 들어있음).
 
 ## 핵심 설계 결정
 
