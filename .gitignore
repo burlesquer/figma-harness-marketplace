@@ -1,5 +1,6 @@
 _workspace/
 _workspace_prev/
+.omc/
 .DS_Store
 Thumbs.db
 *.log
