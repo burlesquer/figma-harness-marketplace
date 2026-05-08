@@ -1,0 +1,24 @@
+{
+  "name": "figma-harness-marketplace",
+  "owner": {
+    "name": "deekee",
+    "email": "burlesquer@yonsei.ac.kr"
+  },
+  "description": "Figma → 프론트엔드 코드 퍼블리싱을 자동화하는 멀티 에이전트 하네스 마켓플레이스.",
+  "plugins": [
+    {
+      "name": "figma-publish-harness",
+      "source": "./plugins/figma-publish-harness",
+      "description": "Figma 디자인을 프로덕션 프론트엔드 코드로 변환하는 멀티 에이전트 하네스. 15개 전문 에이전트와 6개 스킬로 토큰 추출·컴포넌트 매핑·화면 구현·검증·자동 수정 루프를 자동화. 스택 일반화(React/Vue/Svelte/Flutter 등).",
+      "version": "0.1.0",
+      "category": "automation",
+      "tags": [
+        "figma",
+        "design-to-code",
+        "frontend",
+        "harness",
+        "multi-agent"
+      ]
+    }
+  ]
+}

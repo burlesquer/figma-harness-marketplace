@@ -1,0 +1,21 @@
+{
+  "name": "figma-publish-harness",
+  "version": "0.1.0",
+  "description": "Figma 디자인 파일을 프로덕션 프론트엔드 코드로 변환하는 멀티 에이전트 하네스. 스택 자동 감지·디자인 토큰 추출·컴포넌트 매핑·화면 구현·시각/a11y/성능 검증·자동 수정 루프를 자동화. React/Vue/Svelte/Flutter 등 어느 스택에도 동작.",
+  "author": {
+    "name": "deekee",
+    "email": "burlesquer@yonsei.ac.kr"
+  },
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "design-to-code",
+    "frontend",
+    "automation",
+    "harness",
+    "multi-agent",
+    "publishing",
+    "ui-kit",
+    "design-system"
+  ]
+}

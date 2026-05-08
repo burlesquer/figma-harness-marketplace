@@ -1,0 +1,7 @@
+_workspace/
+_workspace_prev/
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
